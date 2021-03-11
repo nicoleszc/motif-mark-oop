@@ -20,3 +20,24 @@ To run Motif Mark on your own computer, you will need the following Python modul
 • re  
 • cairo  
 
+## Usage
+```
+$ ./motif-mark-oop.py --help
+usage: motif-mark-oop.py [-h] -f FASTA -m MOTIFS
+
+Given a fasta file of genes and a text file of motifs, outputs an vector image of a gene and its motifs to scale.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FASTA, --fasta FASTA
+                        Absolute path to fasta file of genes, where introns are in lower case and exons are in upper case.
+  -m MOTIFS, --motifs MOTIFS
+                        Absolute path to text file containing a list of motifs, where each motif is on a new line. Accepts all IUPAC
+                        degenerate base symbols.
+ ```
+ 
+ Example
+ 
+ ```./motif-mark-oop.py -f example_fasta.fasta -m example_motifs.txt```
+ 
+ 
