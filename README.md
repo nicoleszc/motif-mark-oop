@@ -13,7 +13,7 @@ Motif Mark requires two files:
 
 An example fasta file and motif file is found in this repo under ex_fasta.fasta and ex_motif.txt, respectively.
 
-Currently accepts only one exon per gene, and up to six motifs.
+Currently accepts only one exon per gene, and up to six unique motifs.
 
 ## Installation
 
