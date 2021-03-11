@@ -23,6 +23,7 @@ To run Motif Mark on your own computer, you will need the following Python modul
 ## Usage
 ```
 $ ./motif-mark-oop.py --help
+
 usage: motif-mark-oop.py [-h] -f FASTA -m MOTIFS
 
 Given a fasta file of genes and a text file of motifs, outputs an vector image of a gene and its motifs to scale.
@@ -38,6 +39,6 @@ optional arguments:
  
  Example
  
- ```./motif-mark-oop.py -f example_fasta.fasta -m example_motifs.txt```
+ ```$ ./motif-mark-oop.py -f example_fasta.fasta -m example_motifs.txt```
  
  
