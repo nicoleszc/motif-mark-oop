@@ -13,6 +13,8 @@ Motif Mark requires two files:
 
 An example fasta file and motif file is found in this repo under ex_fasta.fasta and ex_motif.txt, respectively.
 
+Currently accepts only one exon per gene, and up to six motifs.
+
 ## Installation
 
 To run Motif Mark on your own computer, you will need the following Python modules:  
